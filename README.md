@@ -1,10 +1,8 @@
 # Modul 130 - LAN ausmessen und prüfen
 
-## PDF: I-CH-M130-CC.pdf
-
 - TODO:
 
-    [ ] The Day of a "Systemintegrator"
+    [] The Day of a "Systemintegrator"
 
 ## Not to do:
 
