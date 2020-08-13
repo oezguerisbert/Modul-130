@@ -135,7 +135,7 @@ Router3>write mem
     Router3# conf t
     Router3(config)# ip route 192.168.1.0 255.255.255.0 10.0.0.2
     Router3(config)# ip route 192.168.2.0 255.255.255.0 11.0.0.2
-    Router3(config)# ip route 10.0.0.0 255.0.0.0 11.0.0.2
+    Router3(config)# ip route 12.0.0.0 255.0.0.0 11.0.0.2
     Router3(config)# exit
     Router3> exit
     Router3> write mem
