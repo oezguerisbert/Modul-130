@@ -55,7 +55,8 @@
     Router0(config-if)# ip address 192.168.5.1 255.255.255.0
     Router0(config-if)# no shutdown
     Router0(config-if)# exit
-    Router0(config)# write mem
+    Router0(config)# exit
+    Router0> write mem
 ```
 
 2. #### Router1 öffnen:
@@ -74,7 +75,8 @@
     Router1(config-if)# ip address 192.168.5.2 255.255.255.0
     Router1(config-if)# no shutdown
     Router1(config-if)# exit
-    Router1(config)# write mem
+    Router1(config)# exit
+    Router1> write mem
 ```
 
 3. #### Router2 öffnen:
@@ -93,5 +95,6 @@
     Router2(config-if)# ip address 192.168.2.1 255.255.255.0
     Router2(config-if)# no shutdown
     Router2(config-if)# exit
-    Router2(config)# write mem
+    Router2(config)# exit
+    Router2> write mem
 ```
