@@ -51,6 +51,7 @@
     Router0(config)# interface FastEthernet 0/1
     Router0(config-if)# ip address 192.168.1.1 255.255.255.0
     Router0(config-if)# no shutdown
+    Router0(config-if)# exit
     Router0(config)# interface Ethernet 0/2/0
     Router0(config-if)# ip address 192.168.5.1 255.255.255.0
     Router0(config-if)# no shutdown
@@ -71,6 +72,7 @@
     Router1(config)# interface FastEthernet 0/1
     Router1(config-if)# ip address 192.168.3.1 255.255.255.0
     Router1(config-if)# no shutdown
+    Router1(config-if)# exit
     Router1(config)# interface Ethernet 0/2/0
     Router1(config-if)# ip address 192.168.5.2 255.255.255.0
     Router1(config-if)# no shutdown
@@ -91,6 +93,7 @@
     Router2(config)# interface FastEthernet 0/1
     Router2(config-if)# ip address 192.168.6.2 255.255.255.0
     Router2(config-if)# no shutdown
+    Router2(config-if)# exit
     Router2(config)# interface Ethernet 0/2/0
     Router2(config-if)# ip address 192.168.2.1 255.255.255.0
     Router2(config-if)# no shutdown
