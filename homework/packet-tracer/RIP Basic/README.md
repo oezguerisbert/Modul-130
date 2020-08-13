@@ -101,3 +101,45 @@
     Router2(config)# exit
     Router2> write mem
 ```
+### 3. Aktivieren des Routing mit RIP
+
+1. #### Router0 (CLI)
+
+```
+    Router0> en
+    Router0# conf t
+    Router0(config)# router rip
+    Router0(config-router)# network 192.168.1.0
+    Router0(config-router)# network 192.168.4.0
+    Router0(config-router)# network 192.168.5.0
+    Router0(config-router)# exit
+    Router0(config)# exit
+    Router0> write mem
+```
+
+2. #### Router1 (CLI)
+
+```
+    Router1> en
+    Router1# conf t
+    Router1(config)# router rip
+    Router1(config-router)# network 192.168.3.0
+    Router1(config-router)# network 192.168.5.0
+    Router1(config-router)# network 192.168.6.0
+    Router1(config-router)# exit
+    Router1(config)# exit
+    Router1> write mem
+```
+3. #### Router2 (CLI)
+
+```
+    Router2> en
+    Router2# conf t
+    Router2(config)# router rip
+    Router2(config-router)# network 192.168.2.0
+    Router2(config-router)# network 192.168.4.0
+    Router2(config-router)# network 192.168.6.0
+    Router1(config-router)# exit
+    Router1(config)# exit
+    Router1> write mem
+```
