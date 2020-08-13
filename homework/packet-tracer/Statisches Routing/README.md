@@ -109,10 +109,10 @@ Router3>write mem
     ```
     Router1>en
     Router1#conf t
-    Router1(config)# ip route 192.168.2.0 255.255.255.0 12.0.0.1
-    Router1(config)# ip route 192.168.3.0 255.255.255.0 10.0.0.2
-    Router1(config)# ip route 11.0.0.1 255.255.255.0 10.0.0.2
-    Router1(config)# ip route 11.0.0.2 255.255.255.0 10.0.0.2
+    Router1(config)# ip route 192.168.2.0 255.255.255.0 12.0.0.2
+    Router1(config)# ip route 192.168.3.0 255.255.255.0 10.0.0.1
+    Router1(config)# ip route 11.0.0.1 255.255.255.0 10.0.0.1
+    Router1(config)# ip route 11.0.0.2 255.255.255.0 10.0.0.1
     Router1(config)# exit
     Router1> exit
     Router1> write mem
@@ -122,10 +122,10 @@ Router3>write mem
     ```
     Router2> en
     Router2# conf t
-    Router2(config)# ip route 192.168.1.0 255.255.255.0 12.0.0.2
-    Router2(config)# ip route 192.168.3.0 255.255.255.0 11.0.0.2
-    Router2(config)# ip route 10.0.0.1 255.255.255.0 11.0.0.2
-    Router2(config)# ip route 10.0.0.2 255.255.255.0 11.0.0.2
+    Router2(config)# ip route 192.168.1.0 255.255.255.0 12.0.0.1
+    Router2(config)# ip route 192.168.3.0 255.255.255.0 11.0.0.1
+    Router2(config)# ip route 10.0.0.1 255.255.255.0 11.0.0.1
+    Router2(config)# ip route 10.0.0.2 255.255.255.0 11.0.0.1
     Router2(config)# exit
     Router2> exit
     Router2> write mem
@@ -135,10 +135,10 @@ Router3>write mem
     ```
     Router3> en
     Router3# conf t
-    Router3(config)# ip route 192.168.1.0 255.255.255.0 10.0.0.1
-    Router3(config)# ip route 192.168.2.0 255.255.255.0 11.0.0.1
-    Router3(config)# ip route 10.0.0.1 255.255.255.0 11.0.0.1
-    Router3(config)# ip route 10.0.0.2 255.255.255.0 11.0.0.1
+    Router3(config)# ip route 192.168.1.0 255.255.255.0 10.0.0.2
+    Router3(config)# ip route 192.168.2.0 255.255.255.0 11.0.0.2
+    Router3(config)# ip route 10.0.0.1 255.255.255.0 11.0.0.2
+    Router3(config)# ip route 10.0.0.2 255.255.255.0 11.0.0.2
     Router3(config)# exit
     Router3> exit
     Router3> write mem
