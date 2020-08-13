@@ -7,19 +7,19 @@
 #### Die Konfigurationen:
 
 ```
-* PC0:
+* PC1:
     - Gateway   :   192.168.1.1
     - Subnet    :   255.255.255.0
     - IP        :   192.168.1.10
 
 
-* PC1:
+* PC2:
     - Gateway   :   192.168.2.1
     - Subnet    :   255.255.255.0
     - IP        :   192.168.2.10
 
 
-* PC2:
+* PC3:
     - Gateway   :   192.168.3.1
     - Subnet    :   255.255.255.0
     - IP        :   192.168.3.10
