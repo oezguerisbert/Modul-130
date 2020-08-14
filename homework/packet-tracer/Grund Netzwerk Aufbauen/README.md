@@ -21,4 +21,4 @@ Start-IP Adresse    :   192.168.1.11
 Subnetz Mask        :   255.255.255.0
 Max. Number Users   :   245
 ```
-6. PC's aus dem Netz 192.168.1.0 > DHCP aktivieren.
+6. PC's aus dem Netz ```192.168.1.0``` > DHCP aktivieren.
