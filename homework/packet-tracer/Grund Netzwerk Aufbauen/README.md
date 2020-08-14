@@ -7,10 +7,7 @@
 #### 1. DHCP:
 
 1. Server öffnen
-2. IP-Adresse des Servers festlegen:
-    1. Tab > Config
-    2. FastEthernet0
-    3. IP Configuration > Static > ```192.168.1.10```
+2. IP-Adresse des Servers festlegen: Tab > Config > FastEthernet0 > IP Configuration > Static > ```192.168.1.10```
 3. Tab > Services
 4. serverPool auswählen
 5. Die Einstellungen übernehmen:
