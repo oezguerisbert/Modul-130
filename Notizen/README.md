@@ -2,9 +2,14 @@
 
 ![Grpahentypen](https://i.gyazo.com/ab103eb26463481c745b5d813d5ecd7c.jpg)
 
-## Trend:
+## Trendgraph:
+Zeigt an, ob in Zukunft die angesprochene Details ein gewisses Limit erreichen werden.
 
+## Basegraph:
+Zeigt an, ob sich das Detail dem Durchschnittswert entsprechend verhält.
 
+## Referenzgraph:
+Zeigt an wie sie gegenüber einem Referenzwert die Werte verhalten.
 
 # Störungen & Probleme:
 
@@ -22,7 +27,7 @@
 
     => 3680 Watt (Europa)
     ```
-* Temperatur: `~ 22-25°C`
+* Temperatur: `~ 22 - 25°C`
     * Luft von innen nach aussen
     * Luft nie nach innen lassen, da Feuchtigkeit Schlecht
 
@@ -30,7 +35,10 @@
 * Kabeltyp/art:
     - Twisted-Pair:
         - UTP (Unshielded)
+            * LAN-Kabel (Cat-Kabel)
         - STP (Shielded)
+            * LAN-Kabel
+            * Telefon-Kabel
     - Glasfaser
     - Kupferkabel
     - Koaxialkabel
