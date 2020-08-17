@@ -8,7 +8,11 @@
 * ```Watt = U * I (Volt * Ampere)```
 * Specs:
     ```
-    ~ 50/60Hz, ~ 230/240V, ~ 10-16A => 3680 Watt (Europa)
+    ~ 50/60Hz
+    ~ 230/240V
+    ~ 10-16A
+
+    => 3680 Watt (Europa)
     ```
 * Temperatur: `~ 22-25°C`
     * Luft von innen nach aussen
@@ -22,14 +26,12 @@
     - Glasfaser
     - Kupferkabel
     - Koaxialkabel
-    
 * Zustand des Kabels:
     * Kabelbruch?
     * Biegeradius?
     * Länge?
 * Kabelmanagement:
     * Korrekt eingesteckt?
-    * 
 
 ### EMP:
 * starke elektromagnetische Felder
@@ -100,3 +102,4 @@
 ### UDP:
 * Missing Packages / Verworfene Frames
 * zu viele Frames
+
