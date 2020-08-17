@@ -122,3 +122,4 @@ Zeigt an wie sie gegenüber einem Referenzwert die Werte verhalten.
 * Missing Packages / Verworfene Frames
 * zu viele Frames
 
+-----
