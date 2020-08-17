@@ -5,7 +5,7 @@
 ### Strom: 
 * zu wenig / ausfall?
 * zu viel
-* Watt = U * I (Volt * Ampere)
+* ```Watt = U * I (Volt * Ampere)```
 * Specs:
     ```
     ~ 50/60Hz, ~ 230/240V, ~ 10-16A => 3680 Watt (Europa)
@@ -15,10 +15,21 @@
     * Luft nie nach innen lassen, da Feuchtigkeit Schlecht
 
 ### Kabel:
-* Kabeltyp/art korrekt?
-* Kabelbruch?
-* Kabel korrekt eingesteckt?
-* Zustand des Kabels
+* Kabeltyp/art:
+    - Twisted-Pair:
+        - UTP (Unshielded)
+        - STP (Shielded)
+    - Glasfaser
+    - Kupferkabel
+    - Koaxialkabel
+    
+* Zustand des Kabels:
+    * Kabelbruch?
+    * Biegeradius?
+    * Länge?
+* Kabelmanagement:
+    * Korrekt eingesteckt?
+    * 
 
 ### EMP:
 * starke elektromagnetische Felder
@@ -83,3 +94,9 @@
 
 ### TCP:
 * Fehlgeschlagene Handshakes
+* Fehlerhafte Packete
+* Checksum Fehler
+
+### UDP:
+* Missing Packages / Verworfene Frames
+* zu viele Frames
