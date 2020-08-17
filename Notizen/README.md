@@ -3,7 +3,7 @@
 ## 1. Physical Layer:
 
 ### Strom: 
-* zu wenig
+* zu wenig / ausfall?
 * zu viel
 * Watt = U * I (Volt * Ampere)
 * Specs:
@@ -13,3 +13,73 @@
 * Temperatur: `~ 22-25°C`
     * Luft von innen nach aussen
     * Luft nie nach innen lassen, da Feuchtigkeit Schlecht
+
+### Kabel:
+* Kabeltyp/art korrekt?
+* Kabelbruch?
+* Kabel korrekt eingesteckt?
+* Zustand des Kabels
+
+### EMP:
+* starke elektromagnetische Felder
+
+### Ventilator:
+* Funktionalität
+* Staub
+* Dreck
+
+### Wasser:
+* Wasserschaden
+* Auslauf einer Flüssigkeit
+
+### Montage:
+* richtig eingebaut?
+* Schrauben Locker
+* Defekte?
+* zu eng eingebaut
+* Kabel Management
+
+### Funtkstörungen:
+* Mikrowellen
+* Bluetooth
+* Wifi-Channels
+* Radiowellen
+* NFC
+
+### Netzteil:
+* Amper
+* richtig angeschlossen?
+* Sicherung kontrollieren
+* Defekte?
+
+## 2. Data Link
+
+### Switch:
+* Defekt?
+* VLAN
+* STP/RSTP
+* Ports on-/offline
+* PoE (Power over Ethernet)
+* Trunk/Access
+* Jumbo Frames
+* Frames
+* Bandbreite vom Port
+* Masterswitch?
+* Netzteil/Ventilatoren
+
+## 3. Network Layer:
+
+### Router:
+* RIP/RIPv2/OSPF/EIGNRP
+* Subnetze 
+* Netzwerke (Default Gateway)
+* IPs, Hosts
+* Access Point oder Routing?
+
+### Layer 3 Switch:
+* Ein Switch mit Routing-Intelligenz
+
+## 4. Transport Layer
+
+### TCP:
+* Fehlgeschlagene Handshakes
