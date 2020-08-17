@@ -1,3 +1,11 @@
+# Graphen
+
+![Grpahentypen](https://i.gyazo.com/ab103eb26463481c745b5d813d5ecd7c.jpg)
+
+## Trend:
+
+
+
 # Störungen & Probleme:
 
 ## 1. Physical Layer:
@@ -32,6 +40,9 @@
     * Länge?
 * Kabelmanagement:
     * Korrekt eingesteckt?
+    * Kabelbruch?
+        * Glasfaserbruch:
+        ![Glasfaserbruch](https://i.gyazo.com/bbd09f0253f1f9f55d1a704a74a36b66.jpg)
 
 ### EMP:
 * starke elektromagnetische Felder
